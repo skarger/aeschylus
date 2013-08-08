@@ -44,3 +44,8 @@ gem 'thor', '= 0.14.6'
 
 # This needs to be installed so we can run Rails console on OpenShift directly
 gem 'minitest'
+
+group :development, :test do
+  gem 'rspec-rails', '~> 2.0'
+end
+
