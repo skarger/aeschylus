@@ -1,5 +1,5 @@
 RailsApp::Application.routes.draw do
-  resources :publications
+  resources :publications, only: [:index, :show] 
 
 
   get "welcome/index"
