@@ -1,4 +1,7 @@
 RailsApp::Application.routes.draw do
+  resources :publications
+
+
   get "welcome/index"
 
   # The priority is based upon order of creation:
