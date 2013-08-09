@@ -1,3 +1,8 @@
+<p>Publications mentioned in Ross Douthat's New York Times Op-Ed,
+<a href="http://www.nytimes.com/2012/12/30/opinion/sunday/douthat-how-to-read-in-2013.html">
+How to Read in 2013</a>.
+</p>
+
 <h1>Listing publications</h1>
 
 <table>
@@ -6,9 +11,6 @@
     <th>Url</th>
     <th>Description</th>
     <th>Political bent</th>
-    <th></th>
-    <th></th>
-    <th></th>
   </tr>
 
 <% @publications.each do |publication| %>
@@ -17,13 +19,8 @@
     <td><%= publication.url %></td>
     <td><%= publication.description %></td>
     <td><%= publication.political_bent %></td>
-    <td><%= link_to 'Show', publication %></td>
-    <td><%= link_to 'Edit', edit_publication_path(publication) %></td>
-    <td><%= link_to 'Destroy', publication, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
 </table>
 
 <br />
-
-<%= link_to 'New Publication', new_publication_path %>
