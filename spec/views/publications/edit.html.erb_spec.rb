@@ -5,7 +5,6 @@ describe "publications/edit" do
     @publication = assign(:publication, stub_model(Publication,
       :name => "MyString",
       :url => "MyString",
-      :description => "MyText",
       :political_bent => "MyString"
     ))
   end
@@ -17,7 +16,6 @@ describe "publications/edit" do
     assert_select "form[action=?][method=?]", publication_path(@publication), "post" do
       assert_select "input#publication_name[name=?]", "publication[name]"
       assert_select "input#publication_url[name=?]", "publication[url]"
-      assert_select "textarea#publication_description[name=?]", "publication[description]"
       assert_select "input#publication_political_bent[name=?]", "publication[political_bent]"
     end
   end

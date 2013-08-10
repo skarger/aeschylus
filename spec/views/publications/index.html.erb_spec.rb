@@ -6,13 +6,11 @@ describe "publications/index" do
       stub_model(Publication,
         :name => "Name",
         :url => "Url",
-        :description => "MyText",
         :political_bent => "Political Bent"
       ),
       stub_model(Publication,
         :name => "Name",
         :url => "Url",
-        :description => "MyText",
         :political_bent => "Political Bent"
       )
     ])

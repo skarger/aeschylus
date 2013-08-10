@@ -1,3 +1,3 @@
 class Publication < ActiveRecord::Base
-  attr_accessible :description, :name, :political_bent, :url
+  attr_accessible :name, :political_bent, :url
 end

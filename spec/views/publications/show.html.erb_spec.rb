@@ -5,7 +5,6 @@ describe "publications/show" do
     @publication = assign(:publication, stub_model(Publication,
       :name => "Name",
       :url => "Url",
-      :description => "MyText",
       :political_bent => "Political Bent"
     ))
   end
