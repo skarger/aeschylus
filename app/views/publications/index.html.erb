@@ -5,19 +5,17 @@ How to Read in 2013</a>.
 
 <p><a href="random-redirect">Take me to a random publication!</a></p>
 
-<h1>Listing publications</h1>
+<h1>Publications</h1>
 
 <table>
   <tr>
     <th>Name</th>
-    <th>Url</th>
     <th>Political bent</th>
   </tr>
 
 <% @publications.each do |publication| %>
   <tr>
-    <td><%= publication.name %></td>
-    <td><%= publication.url %></td>
+    <td><a href="<%= publication.url %>"><%= publication.name %></a></td>
     <td><%= publication.political_bent %></td>
   </tr>
 <% end %>
