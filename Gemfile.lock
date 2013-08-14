@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/andi/simple-navigation.git
+  revision: 9e1657e18789e05c573b99be1c64dc1a476e4d12
+  branch: master
+  specs:
+    simple-navigation (3.11.0)
+      activesupport (>= 2.3.2)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -126,6 +134,7 @@ DEPENDENCIES
   rails (~> 3.2.13)
   rspec-rails (~> 2.0)
   sass-rails (~> 3.2.3)
+  simple-navigation!
   sqlite3
   thor (= 0.14.6)
   uglifier (>= 1.0.3)

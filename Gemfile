@@ -49,3 +49,4 @@ group :development, :test do
   gem 'rspec-rails', '~> 2.0'
 end
 
+gem 'simple-navigation', :git => 'https://github.com/andi/simple-navigation.git', :branch => 'master'
