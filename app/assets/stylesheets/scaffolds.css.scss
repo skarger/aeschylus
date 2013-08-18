@@ -1,13 +1,17 @@
 body {
   background-color: #fff;
-  color: #333;
-  font-family: verdana, arial, helvetica, sans-serif;
+  color: #000;
+  font-family: "pt-sans", verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
 }
 
+h1 {
+    font-family: "cubano", verdana, arial, helvetica, sans-serif;
+}
+
 p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: "pt-sans", verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
 }
