@@ -31,8 +31,16 @@ h1 {
     li {
         display: inline;
         list-style-type: none;
-        padding: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 1%;
     }
+
+    li.current {
+        background-color: #339E4F;
+        border-radius: 10px;
+    }
+
 }
 
 
