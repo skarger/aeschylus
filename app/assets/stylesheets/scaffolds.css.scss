@@ -40,7 +40,6 @@ h1 {
         background-color: #339E4F;
         border-radius: 10px;
     }
-
 }
 
 
@@ -63,6 +62,18 @@ a {
   }
   &:hover {
   }
+
+
+}
+
+a.btn {
+    background: linear-gradient( to bottom, #def, #abc);
+    padding: 1%;
+    text-decoration: none;
+    &:active {
+        background-color: red;
+    }
+
 }
 
 div {
